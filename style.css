@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     font-family: poppins;
-    width: 100%;
+    
 
  
 }
@@ -40,9 +40,10 @@ body{
     font-size: 36px;
     font-weight: bold;
 }
-.gray{
+.search-bar{
     color: #636F88;
-    border-radius: none;
+    border: none;
+    width: 100%;
 }
 .restaurant{
     width: 80%;
@@ -88,8 +89,15 @@ body{
     color: #8C96AB;
     font-size: 14px;
 }
+.font-icon{
+    position: absolute;
+    right:48%;
+    top:46%;
+    color: #8C96AB;
+}
 
 @media only screen and (max-width:576px) {
+
     .login{
         display: none;
     }
@@ -109,7 +117,7 @@ body{
     }
     .card1{
         width: 70%;
-        margin-left: -20px;
+        margin-top: 2%;
     }
     .img1{
         height: 100%;
@@ -129,6 +137,10 @@ body{
         font-size: 25px;
 
     }
+    .font-icon{
+        display: none;
+    }
+  
     
     
     
@@ -156,7 +168,7 @@ body{
     }
     .card1{
         width: 90%;
-        margin-left:auto;
+        /* margin-left:auto; */
       
     }
     .img1{
@@ -174,6 +186,9 @@ body{
         font-size: 22px;
       
     }
+    .font-icon{
+        display: none;
+    }
 }
 
 @media only screen and (max-width:990px){
@@ -189,5 +204,19 @@ body{
        
         margin-left:auto;
       
+    }
+    .font-icon{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1200px){
+    .font-icon{
+        display: none;
+    }
+}
+@media only screen and (min-width:1250px){
+    .font-icon{
+        display: none;
     }
 }
